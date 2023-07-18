@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "third-coursework-"
+version = "0.1.0"
+description = ""
+authors = ["AlbertTesco <artem-dedov2012@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "third_coursework_"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest-cov = "^4.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
